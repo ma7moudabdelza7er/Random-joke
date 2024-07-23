@@ -1,0 +1,33 @@
+body{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    letter-spacing: 2px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80vh;
+}
+#joke{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+#btn{
+    border: 0;
+    outline: 0;
+    background: #123;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
